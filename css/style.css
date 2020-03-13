@@ -3467,9 +3467,9 @@ ul {
     display: inline-block;
     border-radius: 50%;
     color: #fff;
-    background: -moz-linear-gradient(0deg, #ab7636 0%, #d7af7e 100%);
-    background: -webkit-linear-gradient(0deg, #ab7636 0%, #d7af7e 100%);
-    background: -ms-linear-gradient(0deg, #ab7636 0%, #d7af7e 100%);
+    background: -moz-linear-gradient(0deg, #08194d 0%, #32406c 100%);
+    background: -webkit-linear-gradient(0deg, #08194d 0%, #32406c 100%);
+    background: -ms-linear-gradient(0deg, #08194d 0%, #32406c 100%);
 }
 
 
@@ -3525,9 +3525,9 @@ ul {
 /* line 107, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_service.scss */
 
 .service_part .single_service_part:hover {
-    background-image: -moz-linear-gradient(-117deg, #ab7636 0%, #d7af7e 100%);
-    background-image: -webkit-linear-gradient(-117deg, #ab7636 0%, #d7af7e 100%);
-    background-image: -ms-linear-gradient(-117deg, #ab7636 0%, #d7af7e 100%);
+    background-image: -moz-linear-gradient(-117deg, #08194d 0%, #32406c 100%);
+    background-image: -webkit-linear-gradient(-117deg, #08194d 0%, #32406c 100%);
+    background-image: -ms-linear-gradient(-117deg, #08194d 0%, #32406c 100%);
 }
 
 
@@ -3572,7 +3572,7 @@ ul {
     height: 72px;
     line-height: 72px;
     font-size: 30px;
-    color: #ab7636;
+    color: #08194d;
 }
 
 
@@ -7322,7 +7322,7 @@ h6 {
 /* line 2, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_footer.scss */
 
 .footer-area {
-    background-color: #162b45;
+    background-color: #08194d;
     padding: 130px 0px 20px;
 }
 
