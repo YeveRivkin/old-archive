@@ -2902,7 +2902,7 @@ ul {
 @media (max-width: 991px) {
     /* line 134, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
     .main_menu {
-        padding: 20px 0px;
+        padding: 32px 0px;
     }
     /* line 138, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
     .home_menu .main-menu-item {
@@ -3005,10 +3005,10 @@ ul {
 
 .menu_icon:after {
     position: absolute;
-    content: "\e68ef";
+    content: "\f0c9";
     top: 0;
     left: 0px;
-    font-family: "OpenSansHebrew-Bold";
+    font-family: "FontAwesome";
     color: #000;
     font-size: 33px;
     width: 33px;
