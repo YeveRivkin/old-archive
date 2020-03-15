@@ -25,6 +25,15 @@ body {
     text-align: right;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "OpenSansHebrew-Regular";
+}
+
 @font-face {
     font-family: "OpenSansHebrew-Bold";
     src: url("/fonts/OpenSansHebrew-Bold");
