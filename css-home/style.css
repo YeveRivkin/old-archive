@@ -237,21 +237,21 @@ h3 {
 /* line 133, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 
 .bg-img-1 {
-    background-image: url(/img/home-img.jpg);
+    background-image: url("https://github.com/YeveRivkin/ZHZ-Website/blob/master/img/home-img.jpg?raw=true");
 }
 
 
 /* line 136, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 
 .bg-img-2 {
-    background-image: url(/img/home-img.jpg);
+    background-image: url("https://github.com/YeveRivkin/ZHZ-Website/blob/master/img/home-img.jpg?raw=true");
 }
 
 
 /* line 139, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 
 .cta-bg-1 {
-    background-image: url(/img/home-img.jpg);
+    background-image: url("https://github.com/YeveRivkin/ZHZ-Website/blob/master/img/home-img.jpg?raw=true");
 }
 
 
@@ -1372,14 +1372,14 @@ h3 {
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
 
 .slider_bg_1 {
-    background-image: url(/img/home-img.jpg);
+    background-image: url("https://github.com/YeveRivkin/ZHZ-Website/blob/master/img/home-img.jpg?raw=true");
 }
 
 
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
 
 .slider_bg_2 {
-    background-image: url(/img/home-img.jpg);
+    background-image: url("https://github.com/YeveRivkin/ZHZ-Website/blob/master/img/home-img.jpg?raw=true");
 }
 
 
@@ -1777,7 +1777,7 @@ h3 {
 .features_area .features_info ul li::before {
     position: absolute;
     left: 0;
-    background-image: url(/img/home-img.jpg);
+    background-image: url("https://github.com/YeveRivkin/ZHZ-Website/blob/master/img/home-img.jpg?raw=true");
     width: 16px;
     height: 16px;
     content: '';
@@ -1799,7 +1799,7 @@ h3 {
 /* line 168, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
 
 .productivity_area {
-    background-image: url(/img/home-img.jpg);
+    background-image: url("https://github.com/YeveRivkin/ZHZ-Website/blob/master/img/home-img.jpg?raw=true");
     background-size: cover;
     background-position: center center;
     padding: 164px 0;
@@ -1965,7 +1965,7 @@ h3 {
 
 .about_area::before {
     content: '';
-    background-image: url(/img/home-img.jpg);
+    background-image: url("https://github.com/YeveRivkin/ZHZ-Website/blob/master/img/home-img.jpg?raw=true");
     left: 0;
     top: 25px;
     height: 100%;
@@ -2512,28 +2512,28 @@ h3 {
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 
 .bradcam_bg_1 {
-    background-image: url(/img/home-img.jpg);
+    background-image: url("https://github.com/YeveRivkin/ZHZ-Website/blob/master/img/home-img.jpg?raw=true");
 }
 
 
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 
 .breadcam_bg_2 {
-    background-image: url(/img/home-img.jpg);
+    background-image: url("https://github.com/YeveRivkin/ZHZ-Website/blob/master/img/home-img.jpg?raw=true");
 }
 
 
 /* line 7, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 
 .breadcam_bg_3 {
-    background-image: url(/img/home-img.jpg);
+    background-image: url("https://github.com/YeveRivkin/ZHZ-Website/blob/master/img/home-img.jpg?raw=true");
 }
 
 
 /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 
 .breadcam_bg_4 {
-    background-image: url(/img/home-img.jpg);
+    background-image: url("https://github.com/YeveRivkin/ZHZ-Website/blob/master/img/home-img.jpg?raw=true");
 }
 
 
@@ -2953,7 +2953,7 @@ h3 {
 
 .testimonial_area {
     padding: 160px 0;
-    background-image: url(/img/home-img.jpg);
+    background-image: url("https://github.com/YeveRivkin/ZHZ-Website/blob/master/img/home-img.jpg?raw=true");
     position: relative;
     z-index: 0;
     background-size: cover;
@@ -3721,14 +3721,14 @@ h3 {
 /* line 36, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
 
 .emergency_bg_1 {
-    background-image: url(/img/home-img.jpg);
+    background-image: url("https://github.com/YeveRivkin/ZHZ-Website/blob/master/img/home-img.jpg?raw=true");
 }
 
 
 /* line 39, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
 
 .emergency_bg_2 {
-    background-image: url(/img/home-img.jpg);
+    background-image: url("https://github.com/YeveRivkin/ZHZ-Website/blob/master/img/home-img.jpg?raw=true");
 }
 
 
@@ -4156,7 +4156,7 @@ h3 {
     right: 0;
     top: 0;
     height: 100%;
-    background-image: url(/img/home-img.jpg);
+    background-image: url("https://github.com/YeveRivkin/ZHZ-Website/blob/master/img/home-img.jpg?raw=true");
     background-size: cover;
     background-position: center center;
     -webkit-border-radius: 20px 0 0 20px;
