@@ -1478,7 +1478,7 @@ h3 {
     height: 2px;
     content: '';
     left: -67px;
-    top: 50%;
+    top: 75%;
     margin-bottom: -1px;
 }
 
@@ -1781,7 +1781,7 @@ h3 {
     width: 16px;
     height: 16px;
     content: '';
-    top: 50%;
+    top: 75%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -1880,14 +1880,14 @@ h3 {
 
 .counter_area {
     padding-bottom: 120px;
-    padding-top: 75px;
+    padding-top: 100px;
 }
 
 @media (max-width: 767px) {
     /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_counter.scss */
     .counter_area {
         padding-bottom: 30px;
-        padding-top: 60px;
+        padding-top: 80px;
     }
 }
 
@@ -1967,7 +1967,7 @@ h3 {
     content: '';
     background-image: url(/img/slider/home-img.jpg);
     left: 0;
-    top: 0;
+    top: 25px;
     height: 100%;
     width: 50%;
     z-index: 9;
@@ -2085,7 +2085,7 @@ h3 {
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_gallery.scss */
 
 .gallery_area {
-    padding-top: 150px;
+    padding-top: 400px;
     padding-bottom: 150px;
 }
 

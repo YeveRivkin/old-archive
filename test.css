@@ -1,70 +1,5 @@
-@import url(//hello.myfonts.net/count/39c2f1);
-@import url(//hello.myfonts.net/count/3a18d2);
-@font-face {
-    font-family: MarkPro;
-    src: url(fonts/39C2F1_0_0.eot);
-    src: url(fonts/39C2F1_0_0.eot?#iefix) format("embedded-opentype"), url(fonts/39C2F1_0_0.woff2) format("woff2"), url(fonts/39C2F1_0_0.woff) format("woff"), url(fonts/39C2F1_0_0.ttf) format("truetype");
-    font-style: normal;
-    font-weight: 400;
-    text-rendering: optimizeLegibility
-}
-
-@font-face {
-    font-family: MarkPro;
-    src: url(fonts/39C2F1_1_0.eot);
-    src: url(fonts/39C2F1_1_0.eot?#iefix) format("embedded-opentype"), url(fonts/39C2F1_1_0.woff2) format("woff2"), url(fonts/39C2F1_1_0.woff) format("woff"), url(fonts/39C2F1_1_0.ttf) format("truetype");
-    font-style: italic;
-    font-weight: 400;
-    text-rendering: optimizeLegibility
-}
-
-@font-face {
-    font-family: MarkPro;
-    src: url(fonts/3A18D2_0_0.eot);
-    src: url(fonts/3A18D2_0_0.eot?#iefix) format("embedded-opentype"), url(fonts/3A18D2_0_0.woff2) format("woff2"), url(fonts/3A18D2_0_0.woff) format("woff"), url(fonts/3A18D2_0_0.ttf) format("truetype");
-    font-style: normal;
-    font-weight: 500;
-    text-rendering: optimizeLegibility
-}
-
-@font-face {
-    font-family: MarkPro;
-    src: url(fonts/3A18D2_1_0.eot);
-    src: url(fonts/3A18D2_1_0.eot?#iefix) format("embedded-opentype"), url(fonts/3A18D2_1_0.woff2) format("woff2"), url(fonts/3A18D2_1_0.woff) format("woff"), url(fonts/3A18D2_1_0.ttf) format("truetype");
-    font-style: italic;
-    font-weight: 500;
-    text-rendering: optimizeLegibility
-}
-
-@font-face {
-    font-family: MarkPro;
-    src: url(fonts/39C2F1_2_0.eot);
-    src: url(fonts/39C2F1_2_0.eot?#iefix) format("embedded-opentype"), url(fonts/39C2F1_2_0.woff2) format("woff2"), url(fonts/39C2F1_2_0.woff) format("woff"), url(fonts/39C2F1_2_0.ttf) format("truetype");
-    font-style: normal;
-    font-weight: 700;
-    text-rendering: optimizeLegibility
-}
-
-@font-face {
-    font-family: MarkPro;
-    src: url(fonts/39C2F1_3_0.eot);
-    src: url(fonts/39C2F1_3_0.eot?#iefix) format("embedded-opentype"), url(fonts/39C2F1_3_0.woff2) format("woff2"), url(fonts/39C2F1_3_0.woff) format("woff"), url(fonts/39C2F1_3_0.ttf) format("truetype");
-    font-style: italic;
-    font-weight: 700;
-    text-rendering: optimizeLegibility
-}
-
-@font-face {
-    font-family: icomoon-share;
-    src: url(fonts/icomoon-share.eot);
-    src: url(fonts/icomoon-share.eot#iefix) format("embedded-opentype"), url(fonts/icomoon-share.woff2) format("woff2"), url(fonts/icomoon-share.ttf) format("truetype"), url(fonts/icomoon-share.woff) format("woff"), url(fonts/icomoon-share.svg#icomoon-share) format("svg");
-    font-weight: 400;
-    font-style: normal
-}
-
 [class*=" share-icon-"],
 [class^=share-icon-] {
-    font-family: icomoon-share!important;
     speak: none;
     font-style: normal;
     font-weight: 400;
@@ -315,18 +250,9 @@
     content: "\E936"
 }
 
-@font-face {
-    font-family: icomoon;
-    src: url(fonts/icomoon.eot);
-    src: url(fonts/icomoon.eot#iefix) format("embedded-opentype"), url(fonts/icomoon.woff2) format("woff2"), url(fonts/icomoon.ttf) format("truetype"), url(fonts/icomoon.woff) format("woff"), url(fonts/icomoon.svg#icomoon) format("svg");
-    font-weight: 400;
-    font-style: normal;
-    font-display: block
-}
-
 [class*=" icon-"],
 [class^=icon-] {
-    font-family: icomoon!important;
+    font-family: "OpenSansHebrew-Bold";
     speak: none;
     font-style: normal;
     font-weight: 400;
@@ -702,7 +628,7 @@ body.lang-en .accessibility-window.open {
     height: 1em;
     line-height: 1em;
     text-align: center;
-    font-family: icomoon
+    font-family: "OpenSansHebrew-Bold";
 }
 
 .fl-carousel-wrapper .fl-carousel-arrow.arrow-left {
@@ -941,7 +867,7 @@ img {
     margin-top: -.5em;
     border-radius: 50%;
     background-color: rgba(0, 0, 0, .9);
-    font-family: icomoon-share;
+    font-family: "OpenSansHebrew-Regular";
     font-size: 2em;
     text-align: center;
     color: #fff;
@@ -1391,7 +1317,7 @@ body.links a:before {
     height: 2em;
     padding: .5em;
     content: "\E934";
-    font-family: icomoon-share;
+    font-family: "OpenSansHebrew-Regular";
     font-size: 1em;
     font-weight: 400;
     line-height: 1em;

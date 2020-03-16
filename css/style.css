@@ -25,11 +25,26 @@ body {
     text-align: right;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
+h1 {
+    font-family: "OpenSansHebrew-Regular";
+}
+
+h2 {
+    font-family: "OpenSansHebrew-Regular";
+}
+
+h3 {
+    font-family: "OpenSansHebrew-Regular";
+}
+
+h4 {
+    font-family: "OpenSansHebrew-Regular";
+}
+
+h5 {
+    font-family: "OpenSansHebrew-Regular";
+}
+
 h6 {
     font-family: "OpenSansHebrew-Regular";
 }
@@ -99,7 +114,7 @@ input:focus {
 /* line 29, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_common.scss */
 
 .section_padding {
-    padding: 75px 0px;
+    padding: 45px 0px;
 }
 
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
@@ -2826,21 +2841,21 @@ ul {
 /* line 70, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
 
 .main_menu .menu_btn {
-    border: 1px solid #dde0e3;
-    color: #08194d;
+    border: 1px solid #08194d;
+    color: #ffffff;
     font-size: 16px;
     padding: 9px 41px;
     border-radius: 50px;
-    background-color: #fff;
+    background-color: #08194d;
 }
 
 
 /* line 77, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
 
 .main_menu .menu_btn:hover {
-    background-color: #08194d;
-    border: 1px solid #08194d;
-    color: #fff;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #08194d;
 }
 
 
