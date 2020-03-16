@@ -27,6 +27,12 @@
     <!-- style CSS -->
     <link rel="stylesheet" href="css/style.css">
     <style>
+        @media screen and (max-width: 1024px) {
+            .col {
+                display: none !important;
+            }
+        }
+        
         * {
             box-sizing: border-box;
         }
@@ -118,7 +124,7 @@
                         <div class="breadcrumb_iner_item">
                             </br>
                             </br>
-                            <h2 style="color: white;">תחומי עיסוק</h2>
+                            <h2 style="color: white;"> התמחויות</h2>
                         </div>
                     </div>
                 </div>
@@ -133,220 +139,89 @@
         <div class="container">
             <div class="column">
                 <div class="card">
-                    <table width="100%" dir="rtl">
-                        <tr>
-                            <th style="text-align:right">ימין</th>
-                            <th style="text-align:right">
-                                <h4>הקמה וליווי של חברות ועסקים</h4>
-                                <p>
-                                    * עריכת הסכמי מייסדים והסכמי שותפות.</br>
-                                    * הקמה / פירוק של חברות.</br>
-                                    * יצוג בתי עסק וחברות בהליכים בבתי המשפט.</br>
-                                    * יצוג ע"ב רטיינר.</br>
-                                </p>
-                            </th>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <table width="100%" dir="rtl">
-                        <tr>
-                            <th style="text-align:right">ימין</th>
-                            <th style="text-align:right">
-                                <h4 id="family">משפחה וירושה</h4>
-                                <p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-9">
+                                <h4 style="text-align:right;" dir="rtl">משפחה וירושה</h4>
+                                <p style="text-align:right;" dir="rtl">
                                     * גירושין/התרת נישואין, כתובה, איזון משאבים, תביעות רכוש, מזונות, זמני שהות (בעבר נעשה שימוש במונח הלא תקין הסדרי ראייה). <br> * סכסוכי משפחה, אבהות, פירוק שיתוף.</br>
                                     * יפוי כוח מתמשך, הנחיות מקדימות לצורך מינוי אפוטרפוס, ומסמך הבעת רצון, מינוי ו/או התנגדות למינוי אפוטרפוס. </br>
                                     * הסכם ממון, הסכם חיים משותפים לידועים בציבור.</br>
                                     * צוואות, בקשות ו/או תיקון לצו ירושה או צו קיום צוואה וייצוג בהתנגדיות להם, הסכם בין יורשים, הסכם חלוקת עזבון, מינוי מנהל עזבון.</br>
                                 </p>
-                            </th>
-                        </tr>
-                    </table>
+                            </div>
+                            <div class="col">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Temp_plate_blue.svg/601px-Temp_plate_blue.svg.png" width="350px" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="column">
+                <br>
                 <div class="card">
-                    <table width="100%" dir="rtl">
-                        <tr>
-                            <th style="text-align:right">
-                                <h4>תביעות ביטוח</h4>
-                                <p>
-                                    * תביעות מול הביטוח הלאומי: תביעת עבודה, דמי פגיעה ונכות כללית.</br>
-                                    * תביעות לשר"מ, ניידות, תג נכה, סיעוד ושיקום.</br>
-                                    * יצוג בועדות רפואיות מול כל הגופים והמוסדות.</br>
-                                    * תביעות כנגד חברות ביטוח.</br>
-                                </p>
-                            </th>
-                            <th style="text-align:right">שמאל</th>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <table width="100%" dir="rtl">
-                        <tr>
-                            <th style="text-align:right">ימין</th>
-                            <th style="text-align:right">שמאל</th>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-
-
-
-
-
-            -----------------------
-            <center>
-                <table dir="rtl" style="border-spacing:0 20px;border-collapse:separate; ">
-                    <tr>
-                        <td dir="rtl" style="vertical-align:top"><i class="fas fa-briefcase" style="color:#08194d;font-size:40px ; display: inline-block; border-radius: 80px; padding: 0.7em 0.71em;margin: 10px;text-align: top;"></i>
-                            <td>
-                                <h4>הקמה וליווי של חברות ועסקים</h4>
-                                <p>
-                                    * עריכת הסכמי מייסדים והסכמי שותפות.</br>
-                                    * הקמה / פירוק של חברות.</br>
-                                    * יצוג בתי עסק וחברות בהליכים בבתי המשפט.</br>
-                                    * יצוג ע"ב רטיינר.</br>
-                                </p>
-                            </td>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><i class="fas fa-home" style="color:#08194d;font-size:40px ; display: inline-block; border-radius: 80px; padding: 0.7em 0.71em;margin: 10px;text-align: top;"></i>
-                            <td>
-                                <h4 id="family">משפחה וירושה</h4>
-                                <p>
-                                    * גירושין/התרת נישואין, כתובה, איזון משאבים, תביעות רכוש, מזונות, זמני שהות (בעבר נעשה שימוש במונח הלא תקין הסדרי ראייה). <br> * סכסוכי משפחה, אבהות, פירוק שיתוף.</br>
-                                    * יפוי כוח מתמשך, הנחיות מקדימות לצורך מינוי אפוטרפוס, ומסמך הבעת רצון, מינוי ו/או התנגדות למינוי אפוטרפוס. </br>
-                                    * הסכם ממון, הסכם חיים משותפים לידועים בציבור.</br>
-                                    * צוואות, בקשות ו/או תיקון לצו ירושה או צו קיום צוואה וייצוג בהתנגדיות להם, הסכם בין יורשים, הסכם חלוקת עזבון, מינוי מנהל עזבון.</br>
-                                </p>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td><i class="fas fa-file-invoice-dollar" style="color:#08194d;font-size:40px ; display: inline-block; border-radius: 80px; padding: 0.7em 0.71em;margin: 10px;text-align: top;"></i>
-                            <td>
-                                <h4>תביעות ביטוח</h4>
-                                <p>
-                                    * תביעות מול הביטוח הלאומי: תביעת עבודה, דמי פגיעה ונכות כללית.</br>
-                                    * תביעות לשר"מ, ניידות, תג נכה, סיעוד ושיקום.</br>
-                                    * יצוג בועדות רפואיות מול כל הגופים והמוסדות.</br>
-                                    * תביעות כנגד חברות ביטוח.</br>
-                                </p>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td><i class="fas fa-sign" style="color:#08194d;font-size:40px ; display: inline-block; border-radius: 80px; padding: 0.7em 0.71em;margin: 10px;text-align: top;"></i>
-                            <td>
-                                <h4>מקרקעין והתחדשות עירונית</h4>
-                                <p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-9">
+                                <h4 style="text-align:right;" dir="rtl">מקרקעין והתחדשות עירונית
+                                </h4>
+                                <p style="text-align:right;" dir="rtl">
                                     * הסכמי רכישה ומכר של דירות יד 2 ומקבלן, מסחר, קרקעות ונחלות. </br>
                                     * תביעות לפירוק שיתוף / פינוי מושכר.</br>
                                     * ניהול משא ומתן למיקסום אינטרס הלקוח.</br>
                                     * תמ''א 38 - ליווי ויצוג של דיירים ויזמים.</br>
                                     * ליויי ויצוג בהליכי פינוי בינוי / קבוצות רכישה.</br>
                                 </p>
-                            </td>
-                    </tr>
-                </table>
-            </center>
-        </div>
-        </div>
-    </section>
-    <!-- servicing end-->
-
-    <!--::review_part start::-->
-    <section class="review_part section_padding section_bg">
-        <div class="container">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-lg-9">
-                    <!-- MAIN SLIDES -->
-                    <div class="slider">
-                        <div data-index="1">
-                            <div class="client_review_text text-center">
-                                <p>Thing yielding place gathered heaven second isn't darkness does not good very dry morning signs isn't for spirit stars man meat beginning. Meat earth. Face seas doesn't life doesn't fruit brought life gathering also lights
-                                    isn't day a wherein firmament fruitful read ability
-                                </p>
-
                             </div>
-                        </div>
-                        <div data-index="2">
-                            <div class="client_review_text text-center">
-                                <p>Thing yielding place gathered heaven second isn't darkness does not good very dry morning signs isn't for spirit stars man meat beginning. Meat earth. Face seas doesn't life doesn't fruit brought life gathering also lights
-                                    isn't day a wherein firmament fruitful read ability
-                                </p>
-                            </div>
-                        </div>
-                        <div data-index="3">
-                            <div class="client_review_text text-center">
-                                <p>Thing yielding place gathered heaven second isn't darkness does not good very dry morning signs isn't for spirit stars man meat beginning. Meat earth. Face seas doesn't life doesn't fruit brought life gathering also lights
-                                    isn't day a wherein firmament fruitful read ability</p>
-                            </div>
-                        </div>
-                        <div data-index="4">
-                            <div class="client_review_text text-center">
-                                <p>Thing yielding place gathered heaven second isn't darkness does not good very dry morning signs isn't for spirit stars man meat beginning. Meat earth. Face seas doesn't life doesn't fruit brought life gathering also lights
-                                    isn't day a wherein firmament fruitful read ability</p>
+                            <div class="col">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Temp_plate_blue.svg/601px-Temp_plate_blue.svg.png" width="350px" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <!-- THUMBNAILS -->
-                    <div class="slider-nav-thumbnails">
-                        <div class="slider-thumbnails">
-                            <img src="img/client/client_1.png" alt="slideimg" class="image">
-                            <div class="client_review_text text-center">
-                                <h3>Daniel E Gilcritst</h3>
-                                <h5>Richard Kellerman</h5>
+                <br>
+                <div class="card">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-9">
+                                <h4 style="text-align:right;" dir="rtl">תביעות ביטוח</h4>
+                                <p style="text-align:right;" dir="rtl">
+                                    * תביעות מול הביטוח הלאומי: תביעת עבודה, דמי פגיעה ונכות כללית.</br>
+                                    * תביעות לשר"מ, ניידות, תג נכה, סיעוד ושיקום.</br>
+                                    * יצוג בועדות רפואיות מול כל הגופים והמוסדות.</br>
+                                    * תביעות כנגד חברות ביטוח.</br>
+                                </p>
+                            </div>
+                            <div class="col">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Temp_plate_blue.svg/601px-Temp_plate_blue.svg.png" width="350px" />
                             </div>
                         </div>
-                        <div class="slider-thumbnails">
-                            <img src="img/client/client_2.png" alt="slideimg" class="image">
-                            <div class="client_review_text text-center">
-                                <h3>Daniel E Gilcritst</h3>
-                                <h5>Manager, Vision</h5>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-9">
+                                <h4 style="text-align:right;" dir="rtl">הקמה וליווי של חברות ועסקים</h4>
+                                <p style="text-align:right;" dir="rtl">
+                                    * עריכת הסכמי מייסדים והסכמי שותפות.</br>
+                                    * הקמה / פירוק של חברות.</br>
+                                    * יצוג בתי עסק וחברות בהליכים בבתי המשפט.</br>
+                                    * יצוג ע"ב רטיינר.</br>
+                                </p>
                             </div>
-                        </div>
-                        <div class="slider-thumbnails">
-                            <img src="img/client/client_3.png" alt="slideimg" class="image">
-                            <div class="client_review_text text-center">
-                                <h3>Richard Kellerman</h3>
-                                <h5>Manager, Vision</h5>
-                            </div>
-                        </div>
-                        <div class="slider-thumbnails">
-                            <img src="img/client/client_4.png" alt="slideimg" class="image">
-                            <div class="client_review_text text-center">
-                                <h3>Daniel E Gilcritst</h3>
-                                <h5>Manager, Vision</h5>
-                            </div>
-                        </div>
-                        <div class="slider-thumbnails">
-                            <img src="img/client/client_1.png" alt="slideimg" class="image">
-                            <div class="client_review_text text-center">
-                                <h3>Richard Kellerman</h3>
-                                <h5>Manager, Vision</h5>
-                            </div>
-                        </div>
-                        <div class="slider-thumbnails">
-                            <img src="img/client/client_2.png" alt="slideimg" class="image">
-                            <div class="client_review_text text-center">
-                                <h3>Daniel E Gilcritst</h3>
-                                <h5>Manager, Vision</h5>
+                            <div class="col">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Temp_plate_blue.svg/601px-Temp_plate_blue.svg.png" width="350px" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <br><br>
     </section>
-    <!--::blog_part end::-->
+    <!-- servicing end-->
+
+
 
     <!-- footer part start-->
     <footer class="footer-area">
