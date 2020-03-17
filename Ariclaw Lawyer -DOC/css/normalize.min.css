@@ -43,7 +43,7 @@ button,
 input,
 select,
 textarea {
-    font-family: "OpenSansHebrew-Regular";
+    font-family: 'Heebo', sans-serif;
 }
 
 body {
@@ -126,8 +126,8 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, serif;
-    _font-family: 'courier new', monospace;
+    font-family: 'Heebo', sans-serif;
+    _font-family: 'Heebo', sans-serif;
     font-size: 1em
 }
 

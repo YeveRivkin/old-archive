@@ -1,6 +1,7 @@
 /**************** extend css start ****************/
 
 @import url("https://fonts.googleapis.com/css?family=Cardo|Roboto:400,400i|Rufina");
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 
 /* line 6, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_extends.scss */
 
@@ -18,7 +19,7 @@
 /* line 3, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_common.scss */
 
 body {
-    font-family: "OpenSansHebrew-Regular";
+    font-family: 'Heebo', sans-serif;
     padding: 0;
     margin: 0;
     font-size: 14px;
@@ -26,27 +27,27 @@ body {
 }
 
 h1 {
-    font-family: "OpenSansHebrew-Regular";
+    font-family: 'Heebo', sans-serif;
 }
 
 h2 {
-    font-family: "OpenSansHebrew-Regular";
+    font-family: 'Heebo', sans-serif;
 }
 
 h3 {
-    font-family: "OpenSansHebrew-Regular";
+    font-family: 'Heebo', sans-serif;
 }
 
 h4 {
-    font-family: "OpenSansHebrew-Regular";
+    font-family: 'Heebo', sans-serif;
 }
 
 h5 {
-    font-family: "OpenSansHebrew-Regular";
+    font-family: 'Heebo', sans-serif;
 }
 
 h6 {
-    font-family: "OpenSansHebrew-Regular";
+    font-family: 'Heebo', sans-serif;
 }
 
 @font-face {
@@ -243,14 +244,14 @@ h4,
 h5,
 h6 {
     color: #161d22;
-    font-family: "OpenSansHebrew-Bold";
+    font-family: 'Heebo', sans-serif;
 }
 
 
 /* line 88, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_common.scss */
 
 p {
-    font-family: "OpenSansHebrew-Bold";
+    font-family: 'Heebo', sans-serif;
     line-height: 1.8;
     font-size: 15px;
     margin-bottom: 0px;
@@ -262,7 +263,7 @@ p {
 
 .Seed_spirit_replenish_cattle_one_moved_air_crea {
     font-size: 14px;
-    font-family: "OpenSansHebrew-Bold";
+    font-family: 'Heebo', sans-serif;
     color: #777777;
     text-align: right;
     position: absolute;
@@ -747,7 +748,7 @@ ul {
     text-transform: capitalize;
     color: #fff;
     border: 2px solid #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Heebo', sans-serif;
 }
 
 
@@ -2825,7 +2826,7 @@ ul {
     color: #000000;
     font-size: 16px;
     padding: 38px 25px;
-    font-family: "OpenSansHebrew-Bold";
+    font-family: 'Heebo', sans-serif;
     text-transform: capitalize;
     line-height: 12px;
 }
@@ -3205,7 +3206,7 @@ ul {
 
 .banner_part .banner_text h1 {
     font-size: 50px;
-    font-family: "OpenSansHebrew-Bold";
+    font-family: 'Heebo', sans-serif;
     font-weight: 400;
     margin-bottom: 27px;
     line-height: 1.273;
@@ -3315,7 +3316,7 @@ ul {
 
 .More_About_Us {
     font-size: 16px;
-    font-family: "OpenSansHebrew-Bold";
+    font-family: 'Heebo', sans-serif;
     color: white;
     line-height: 1.75;
     text-align: center;
@@ -4293,7 +4294,7 @@ ul {
     display: inline-block;
     background-color: #ab7636;
     color: #fff;
-    font-family: "OpenSansHebrew-Bold";
+    font-family: 'Heebo', sans-serif;
     padding: 14.5px 31.5px;
     margin-top: 8px;
     margin-left: 6px;
@@ -4317,7 +4318,7 @@ ul {
     border-radius: 0px;
     padding: .375rem 0rem;
     font-size: 14px;
-    font-family: "OpenSansHebrew-Bold";
+    font-family: 'Heebo', sans-serif;
     margin-bottom: 15px;
     padding-bottom: 15px;
     height: 40px;
@@ -4338,7 +4339,7 @@ ul {
     border-bottom: 0px solid #999;
     border-right: 0px solid #999;
     content: "\e72b";
-    font-family: "OpenSansHebrew-Bold";
+    font-family: 'Heebo', sans-serif;
     transform: rotate(0deg);
 }
 
@@ -4882,7 +4883,7 @@ ul {
 .client_review_text h3 {
     font-size: 22px;
     font-weight: 500;
-    font-family: "OpenSansHebrew-Bold";
+    font-family: 'Heebo', sans-serif;
     margin-top: 50px;
     margin-bottom: 10px;
 }
@@ -5408,7 +5409,7 @@ ul {
 
 .single_team_member .blog_item_date h3 {
     font-size: 24px;
-    font-family: "OpenSansHebrew-Bold";
+    font-family: 'Heebo', sans-serif;
     color: #fff;
     font-weight: 700;
 }
@@ -7450,7 +7451,7 @@ h6 {
     font-size: 13px;
     color: #999999;
     border: 0px solid transparent;
-    font-family: "OpenSansHebrew-Bold";
+    font-family: 'Heebo', sans-serif;
 }
 
 
@@ -7474,7 +7475,7 @@ h6 {
     border: 0;
     font-size: 12px;
     font-weight: 400;
-    font-family: "OpenSansHebrew-Bold";
+    font-family: 'Heebo', sans-serif;
     position: relative;
     left: 0;
 }
@@ -7945,5 +7946,73 @@ h6 {
     margin-bottom: 0px !important;
 }
 
+
+/*# sourceMappingURL=style.css.map */
+
+
+/* line 48, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_breadcrumb.scss */
+
+.breadcrumb .breadcrumb_iner .breadcrumb_iner_item span {
+    margin: 0px 5px;
+    font-size: 12px;
+}
+
+
+/* line 58, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_breadcrumb.scss */
+
+.breadcrumb {
+    margin-bottom: 0px !important;
+}
+
+
+/*# sourceMappingURL=style.css.map */
+
+/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_breadcrumb.scss */ .breadcrumb .breadcrumb_iner .breadcrumb_iner_item span {
+    margin: 0px 5px;
+    font-size: 12px;
+}
+
+
+/* line 58, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_breadcrumb.scss */
+
+.breadcrumb {
+    margin-bottom: 0px !important;
+}
+
+
+/*# sourceMappingURL=style.css.map */
+
+.breadcrumb .breadcrumb_iner .breadcrumb_iner_item span {
+    margin: 0px 5px;
+    font-size: 12px;
+}
+
+
+/* line 58, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_breadcrumb.scss */
+
+.breadcrumb {
+    margin-bottom: 0px !important;
+}
+
+
+/*# sourceMappingURL=style.css.map */
+
+font-size: 12px;
+
+}
+
+/* line 58, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_breadcrumb.scss */
+.breadcrumb {
+    margin-bottom: 0px !important;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+}
+
+/* line 58, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_breadcrumb.scss */
+.breadcrumb {
+    margin-bottom: 0px !important;
+}
 
 /*# sourceMappingURL=style.css.map */
