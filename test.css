@@ -1814,7 +1814,7 @@ html,
 input,
 select,
 textarea {
-    font-family: MarkPro, Tahoma, sans-serif
+    font-family: 'Heebo', sans-serif;
 }
 
 body {
