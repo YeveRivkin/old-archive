@@ -5545,9 +5545,10 @@ ul {
     border: 1px solid #f0e9ff;
     border-radius: 5px;
     height: 48px;
-    padding-left: 18px;
+    padding-right: 18px;
     font-size: 13px;
-    background: transparent;
+    background: #4a577e;
+    opacity: 60%;
 }
 
 
@@ -5563,7 +5564,7 @@ ul {
 
 .form-contact .form-control::placeholder {
     font-weight: 300;
-    color: #999999;
+    color: #ffffff;
 }
 
 
