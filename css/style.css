@@ -5993,7 +5993,7 @@ h6 {
 
 .genric-btn.warning {
     color: #fff;
-    background: #f4e700;
+    background: #08194d;
     border: 1px solid transparent;
 }
 
@@ -6001,8 +6001,8 @@ h6 {
 /* line 281, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_elements.scss */
 
 .genric-btn.warning:hover {
-    color: #f4e700;
-    border: 1px solid #f4e700;
+    color: #08194d;
+    border: 1px solid #08194d;
     background: #fff;
 }
 
@@ -6010,8 +6010,8 @@ h6 {
 /* line 287, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_elements.scss */
 
 .genric-btn.warning-border {
-    color: #f4e700;
-    border: 1px solid #f4e700;
+    color: #08194d;
+    border: 1px solid #08194d;
     background: #fff;
 }
 
@@ -6020,7 +6020,7 @@ h6 {
 
 .genric-btn.warning-border:hover {
     color: #fff;
-    background: #f4e700;
+    background: #08194d;
     border: 1px solid transparent;
 }
 
@@ -7350,13 +7350,13 @@ h6 {
 
 .footer-area {
     background-color: #08194d;
-    padding: 130px 0px 20px;
+    padding: 65px 0px 20px;
 }
 
 @media (max-width: 991px) {
     /* line 2, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_footer.scss */
     .footer-area {
-        padding: 70px 0px 30px;
+        padding: 735px 0px 30px;
     }
 }
 
