@@ -2946,6 +2946,7 @@ ul {
     .main_menu .main-menu-item .nav-item .nav-link {
         padding: 5px 15px !important;
         color: #000;
+        text-align: right;
     }
     /* line 155, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
     .navbar-collapse {
@@ -3034,7 +3035,8 @@ ul {
     content: "\f0c9";
     top: 0;
     left: 0px;
-    font-family: "FontAwesome";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
     color: #000;
     font-size: 33px;
     width: 33px;
