@@ -8020,3 +8020,63 @@ font-size: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */
+.about_info_area {
+    padding-bottom: 25px;
+}
+
+/* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
+.about_info_area.plus_padding {
+    padding-top: 50px;
+}
+@media (max-width: 767px) {
+    /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
+    .about_info_area.plus_padding {
+        padding-top: 30px;
+    }
+}
+
+/* line 10, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
+.about_info_area .about_text {
+    margin-bottom: 30px;
+}
+
+/* line 12, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
+.about_info_area .about_text h3 {
+    font-size: 46px;
+    font-weight: 300;
+    color: #001D38;
+}
+@media (max-width: 767px) {
+    /* line 12, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
+    .about_info_area .about_text h3 {
+        font-size: 30px;
+    }
+}
+
+/* line 20, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
+.about_info_area .about_text p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 24px;
+    margin-top: 10px;
+}
+
+/* line 27, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
+.about_info_area .about_text a {
+    padding: 13px 43px;
+}
+
+/* line 31, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
+.about_info_area .about_thumb {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+/* line 35, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
+.about_info_area .about_thumb img {
+    width: 100%;
+}
