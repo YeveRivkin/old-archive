@@ -111,7 +111,7 @@
                     <h2 class="contact-title" style="text-align:right;">השאירו לנו הודעה</h2>
                 </div>
                 <div class="col-lg-8">
-                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                    <form class="form-contact contact_form" action="https://formspree.io/xwkqyagq" method="POST" id="contactForm" novalidate="novalidate">
                         <div class="row">
 
                             <div class="col-sm-6">
@@ -121,12 +121,12 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input class="form-control" dir="rtl" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'אימייל'" placeholder='אימייל'>
+                                    <input class="form-control" dir="rtl" name="_replyto" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'אימייל'" placeholder='אימייל'>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
-                                    <input class="form-control" dir="rtl" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'נושא הפניה'" placeholder='נושא הפניה'>
+                                    <input class="form-control" dir="rtl" name="_subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'נושא הפניה'" placeholder='נושא הפניה'>
                                 </div>
                             </div>
                         </div>
@@ -136,7 +136,8 @@
                             </div>
                         </div>
                         <div class="form-group mt-3">
-                            <button type="submit" class="button button-contactForm btn_4">שלח</button>
+                            <button type="submit">Send</button>
+                            <!--  <button type="submit" class="button button-contactForm btn_4">שלח</button>-->
                         </div>
                     </form>
                 </div>
