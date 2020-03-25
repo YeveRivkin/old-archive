@@ -110,33 +110,34 @@
                 <div class="col-12">
                     <h2 class="contact-title" style="text-align:right;">השאירו לנו הודעה</h2>
                 </div>
+
                 <div class="col-lg-8">
-                    <form class="form-contact contact_form" action="https://formspree.io/xwkqyagq" method="POST" id="contactForm" novalidate="novalidate">
+                    <form action="https://formspree.io/xwkqyagq" method="POST">
                         <div class="row">
 
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input class="form-control" dir="rtl" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'שם מלא'" placeholder='שם מלא'>
+                                    <input type="text" name="name" class="form-control" dir="rtl" placeholder='שם מלא'>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input class="form-control" dir="rtl" name="_replyto" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'אימייל'" placeholder='אימייל'>
+                                    <input type="email" name="_replyto" class="form-control" dir="rtl" placeholder='אימייל'>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
-                                    <input class="form-control" dir="rtl" name="_subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'נושא הפניה'" placeholder='נושא הפניה'>
+                                    <input type="text" name="_subject" class="form-control" dir="rtl" placeholder='נושא הפניה'>
                                 </div>
                             </div>
                         </div>
                         <div class="col-25">
                             <div class="form-group">
-                                <textarea class="form-control w-100" dir="rtl" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'תוכן הפנייה'" placeholder='תוכן הפנייה'></textarea>
+                                <textarea name="message" class="form-control w-100" dir="rtl" cols="30" rows="9" placeholder='תוכן הפנייה'></textarea>
                             </div>
                         </div>
                         <div class="form-group mt-3">
-                            <button type="submit">Send</button>
+                            <button type="submit" class="button button-contactForm btn_4">שלח</button>
                             <!--  <button type="submit" class="button button-contactForm btn_4">שלח</button>-->
                         </div>
                     </form>
