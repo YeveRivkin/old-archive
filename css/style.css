@@ -4886,7 +4886,7 @@ ul {
 .client_review_text h3 {
     font-size: 22px;
     font-weight: 500;
-    font-family: 'Heebo', sans-serif;
+    font-family: "Cardo", serif;
     margin-top: 50px;
     margin-bottom: 10px;
 }
@@ -4912,20 +4912,20 @@ ul {
 /* line 151, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_review.scss */
 
 .slider-nav-thumbnails .slick-slide {
-    margin: 0px 0px 0px;
+    margin: 54px 0px 0px;
 }
 
 @media (max-width: 575px) {
     /* line 151, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_review.scss */
     .slider-nav-thumbnails .slick-slide {
-        margin: 0px 0px 0px;
+        margin: 20px 0px 0px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     /* line 151, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_review.scss */
     .slider-nav-thumbnails .slick-slide {
-        margin: 0px 40px 20px;
+        margin: 54px 40px 20px;
     }
 }
 
