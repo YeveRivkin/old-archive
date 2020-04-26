@@ -7971,11 +7971,6 @@ h6 {
 
 /*# sourceMappingURL=style.css.map */
 
-/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_breadcrumb.scss */ .breadcrumb .breadcrumb_iner .breadcrumb_iner_item span {
-    margin: 0px 5px;
-    font-size: 12px;
-}
-
 
 /* line 58, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_breadcrumb.scss */
 
@@ -7999,35 +7994,36 @@ h6 {
 }
 
 
-/*# sourceMappingURL=style.css.map */
-
-font-size: 12px;
-
-}
-
 /* line 58, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_breadcrumb.scss */
+
 .breadcrumb {
     margin-bottom: 0px !important;
 }
 
+
 /*# sourceMappingURL=style.css.map */
 
-}
 
 /* line 58, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_breadcrumb.scss */
+
 .breadcrumb {
     margin-bottom: 0px !important;
 }
 
+
 /*# sourceMappingURL=style.css.map */
+
 .about_info_area {
     padding-bottom: 25px;
 }
 
+
 /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
+
 .about_info_area.plus_padding {
     padding-top: 50px;
 }
+
 @media (max-width: 767px) {
     /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
     .about_info_area.plus_padding {
@@ -8035,17 +8031,22 @@ font-size: 12px;
     }
 }
 
+
 /* line 10, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
+
 .about_info_area .about_text {
     margin-bottom: 30px;
 }
 
+
 /* line 12, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
+
 .about_info_area .about_text h3 {
     font-size: 46px;
     font-weight: 300;
     color: #001D38;
 }
+
 @media (max-width: 767px) {
     /* line 12, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
     .about_info_area .about_text h3 {
@@ -8053,7 +8054,9 @@ font-size: 12px;
     }
 }
 
+
 /* line 20, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
+
 .about_info_area .about_text p {
     font-size: 15px;
     font-weight: 400;
@@ -8062,12 +8065,16 @@ font-size: 12px;
     margin-top: 10px;
 }
 
+
 /* line 27, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
+
 .about_info_area .about_text a {
     padding: 13px 43px;
 }
 
+
 /* line 31, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
+
 .about_info_area .about_thumb {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -8076,7 +8083,9 @@ font-size: 12px;
     margin-bottom: 30px;
 }
 
+
 /* line 35, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_about.scss */
+
 .about_info_area .about_thumb img {
     width: 100%;
 }
