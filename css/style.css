@@ -2798,7 +2798,7 @@ ul {
 /* line 38, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
 
 .main_menu {
-    position: absolute;
+    position: sticky;
     left: 0;
     top: 0;
     width: 100%;
@@ -2843,21 +2843,22 @@ ul {
 /* line 70, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
 
 .main_menu .menu_btn {
-    border: 1px solid #08194d;
-    color: #ffffff;
+    background-color: #F2F3F4;
+    border: 1px solid #F2F3F4;
+    color: #08194d;
     font-size: 16px;
+    font-weight: 700;
     padding: 9px 41px;
     border-radius: 50px;
-    background-color: #08194d;
 }
 
 
 /* line 77, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
 
 .main_menu .menu_btn:hover {
-    background-color: #ffffff;
-    border: 1px solid #ffffff;
-    color: #08194d;
+    background-color: #08194d;
+    border: 1px solid #08194d;
+    color: #F2F3F4;
 }
 
 
@@ -2951,7 +2952,7 @@ ul {
     /* line 155, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
     .navbar-collapse {
         z-index: 9999 !important;
-        position: absolute;
+        position: sticky;
         left: 0;
         top: 50px;
         width: 100%;
